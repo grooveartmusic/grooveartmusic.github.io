@@ -23,6 +23,10 @@ body {
     background-color: black;
 }
 
+.bg-grey {
+    background-color: grey
+}
+    
 .bg-white {
     background-color: #ffffff;
 }
@@ -53,6 +57,16 @@ body {
     text-align: center;
 }
 /* End Logo */
+
+
+/* Start Margin Atas */
+.jarak {
+    margin-top: 100px;
+}
+
+/* End Margin Atas */
+
+
 
 /* Start Anchor / Hyperlink */
 a:link,
@@ -140,10 +154,10 @@ h6 {
 
 /* End Heading */
 
-/* Start Jumbotron */ss
+/* Start Jumbotron */
 .jumbotron {
-    background-color: #e9ebec;
-    border: 1px solid #2d2f31;
+    background-color: #8b8989;
+    border: 1px solid #3b6a99;
     border-radius: 4px;
     padding: 20px 0;
 
@@ -177,8 +191,30 @@ jumbotron h1 {
     height: 140px;
 }
 
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 100%
+
+}
+
 /* End Main */
 
+/* Start Sidebar */
+.sidabarcoy{
+        float: left;
+        width: 30%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        
+}
+.sidebar-two {
+    float: left;
+    overflow: auto;
+    width: 30%
+}
+
+/* End Sidebar */
 
 /* Start Box */
 .box-heading {
